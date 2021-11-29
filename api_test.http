@@ -1,0 +1,17 @@
+# insert an example item
+
+POST http://localhost:8081/api/tutorials
+Content-Type: application/json
+
+{
+  "title": "test tutorial 1",
+  "description": "example description of tutorial 1"
+}
+
+###
+
+# retrieve the example item
+
+GET http://localhost:8081/api/tutorials/1
+Accept: application/json
+
